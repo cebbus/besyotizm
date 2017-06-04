@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://www.besyotizm.com/</loc>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://www.besyotizm.com/index.php?p=index</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.besyotizm.com/error404.html</loc>
+  <lastmod>2013-06-06T02:32:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.besyotizm.com/videos.php?p=videos</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.besyotizm.com/misvis.php?p=vis</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.besyotizm.com/gallery.php?p=gallery</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.besyotizm.com/contacts.php?p=contacts</loc>
+  <priority>0.80</priority>
+</url>
+</urlset>

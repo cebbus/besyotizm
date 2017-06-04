@@ -1,0 +1,248 @@
+@CHARSET "UTF-8";
+
+html,body {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font: 12px/25px Arial, Helvetica, sans-serif;
+	color: #292929;
+	background-color: #efefef;
+}
+
+.menuContent{
+	background-color: #222;
+	border-bottom: 1px solid #555;
+}
+
+ul.menu {
+	background-color: #a6d8e3;
+	position: relative;
+}
+
+ul.menu li {
+	float: left;
+	line-height: 20px;
+	margin: 0px 30px 0px 0px;
+	padding: 5px;
+	zoom: 1;
+}
+
+ul.menu li:hover{
+	background-color: #333;
+}
+
+ul.menu li a {
+	font-size: 16px;
+	line-height: 22px;
+	color: #292929;
+	text-decoration: none;
+	display: inline-block;
+	color: #fff;
+}
+
+ul.menu li a:hover,ul.menu li.current a {
+	color: #01a5ca;
+}
+
+ul.menu ul {
+	min-width: 200px;
+	visibility: hidden;
+	position: absolute;
+	margin-top: 5px;
+	left: 0;
+}
+
+ul.menu ul li {
+	font-weight: normal;
+	background: #333;
+	color: #000;
+	border-bottom: 1px solid #555;
+	float: none;
+}
+
+/* IE 6 & 7 Needs Inline Block */
+ul.menu ul li a {
+	font-size: 12px;
+	border-right: none;
+	width: 100%;
+	display: inline-block;
+}
+
+/* 
+	LEVEL THREE
+*/
+ul.menu ul ul {
+	left: 100%;
+	top: 0;
+}
+
+ul.menu li:hover>ul {
+	visibility: visible;
+}
+
+#adminHeader{
+	font: 26px/30px Arial, Helvetica, sans-serif;
+	color: #eeeeee;
+	background-color: #01a5ca;
+	padding: 15px 5px;
+	border-bottom: 2px solid #478b9a;
+}
+
+#content {
+	padding: 5px;
+}
+
+.main {
+	
+}
+
+.adminTable table {
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+.adminTable tr:hover td {
+	background-color: #ff7f00;
+}
+
+.adminTable tr:nth-child(odd) {
+	background-color: #ffaa56;
+}
+
+.adminTable tr:nth-child(even) {
+	background-color: #ffffff;
+}
+
+.adminTable td {
+	vertical-align: middle;
+	border: 1px solid #333;
+	text-align: left;
+	padding: 2px;
+	font-size: 10px;
+	color: #333333;
+}
+
+.adminTable td img{
+	width: 20px;
+}
+
+.adminTable td img:hover{
+	cursor: pointer;
+}
+
+.adminTable tr:first-child td {
+	background: -o-linear-gradient(bottom, #ff7f00 5%, #bf5f00 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ff7f00), color-stop(1, #bf5f00) );
+	background: -moz-linear-gradient(center top, #ff7f00 5%, #bf5f00 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff7f00",endColorstr="#bf5f00" );
+	background: -o-linear-gradient(top, #ff7f00, bf5f00);
+	background-color: #ff7f00;
+	border: 0px solid #333;
+	text-align: center;
+	border-width: 1px;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+.adminTable tr:first-child:hover td {
+	background: -o-linear-gradient(bottom, #ff7f00 5%, #bf5f00 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ff7f00
+		), color-stop(1, #bf5f00) );
+	background: -moz-linear-gradient(center top, #ff7f00 5%, #bf5f00 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff7f00",
+		endColorstr="#bf5f00" );
+	background: -o-linear-gradient(top, #ff7f00, bf5f00);
+	background-color: #ff7f00;
+}
+
+#preview {
+	position: absolute;
+	border: 1px solid #ccc;
+	background: #333;
+	padding: 5px;
+	display: none;
+	color: #fff;
+}
+
+#preview img {
+	width: 200px;
+}
+
+.editTable input {
+	width: 100%;
+	height: 100%;
+}
+
+.editTable table {
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	border-collapse: collapse;
+}
+
+.editTable tr td{
+	border: 0px solid #999;
+	text-align: left;
+	border-width: 1px;
+	font-weight: bold;
+	padding: 3px;
+}
+div.pager {
+    text-align: left;
+    margin: 0.5em 0;
+}
+
+div.pager span {
+    display: inline-block;
+    width: 1.8em;
+    height: 1.8em;
+    line-height: 1.8;
+    text-align: center;
+    cursor: pointer;
+	background: #e8edff; 
+	border: 1px solid #fff;
+	color: #669;
+    margin-right: 0.5em;
+}
+
+div.pager span.active {
+	background: #d0dafd;
+	color: #339;
+}
+
+#box-table-a{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 12px;
+	width: 85%;
+	text-align: left;
+	border-collapse: collapse;
+}
+#box-table-a th{
+	font-size: 13px;
+	font-weight: normal;
+	padding: 8px;
+	background: #b9c9fe;
+	border-top: 4px solid #aabcfe;
+	border-bottom: 1px solid #fff;
+	border-right: 1px solid #fefefe;
+	color: #039;
+}
+#box-table-a td{
+	padding: 8px;
+	background: #e8edff; 
+	border-bottom: 1px solid #fff;
+	color: #669;
+	border-top: 1px solid transparent;
+	border-right: 1px solid #fefefe;
+}
+#box-table-a tr:hover td{
+	background: #d0dafd;
+	color: #339;
+}
+#box-table-a img{
+	width: 25px;
+}
